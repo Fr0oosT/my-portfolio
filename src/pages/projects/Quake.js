@@ -8,7 +8,6 @@ import QuakeHero from "../../components/QuakeHero";
 const Quake = () => {
     return <div>    
     <Navbar/>
-    {/* <QuakeHero/> */}
     <QuakeContent/>
     <Footer/>
 </div>;

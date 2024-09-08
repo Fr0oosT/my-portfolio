@@ -4,7 +4,7 @@ import { AiOutlineArrowDown } from "react-icons/ai";
 
 function QuakeContent() {
   return (
-    <>
+    <div className="quake-container">
     <div className="content-wrapper">
       <div className="title-card">
         <h1>Quake : Temple of Worship</h1>
@@ -25,7 +25,7 @@ function QuakeContent() {
     <h1>My Process</h1>
     </div>
 
-    <div className="highlights full-width">
+    <div className="highlights">
         <ul>
           <li>
             <p>Research</p>
@@ -35,6 +35,9 @@ function QuakeContent() {
           </li>
           <li>
             <p>Gym Investigation</p>
+          </li>
+          <li>
+            <p>Iteration</p>
           </li>
           <li>
             <p>Texturing & Lighting</p>
@@ -100,7 +103,7 @@ function QuakeContent() {
         </div>
       </div>
 
-    </>
+    </div>
   );
 }
 
