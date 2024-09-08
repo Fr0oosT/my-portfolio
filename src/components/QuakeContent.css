@@ -14,7 +14,7 @@
 .content-wrapper {
     max-width: 1200px;
     margin: auto;
-    padding: 10rem 6rem 5rem;
+    padding: 13rem 2rem 5rem;
     /* overflow: hidden; */
     
 }
@@ -28,7 +28,7 @@
     border: 1px solid white;
     padding: 1rem;
     padding-left: 3rem;
-    border-radius: 5px;
+    border-radius: 15px;
     align-items: center;
 
 }
@@ -40,6 +40,14 @@
     grid-row: 2;
     align-items: center;
     
+}
+.quake-video{
+    grid-column: 2;
+    grid-row: 2;
+    padding: 4rem 4rem 0rem;
+}
+.quake-video iframe{
+    border-radius: 15px;
 }
 
 .highlights {
@@ -63,7 +71,7 @@
 }
 
 .highlights li {
-    border: 1px solid white;
+    /* border: 1px solid white; */
     padding: 10px;
     border-radius: 10px;
 }
