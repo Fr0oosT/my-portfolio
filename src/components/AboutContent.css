@@ -1,0 +1,30 @@
+.about-container{
+    width: 100%;
+    padding: 10rem 6rem 1rem;
+    background: black;
+    padding-bottom: 200px;
+    display: grid;
+    grid-template-rows: 150px 20px 150px;
+    max-width: 900px;
+    margin: auto;
+    grid-template-columns: 900px;
+    row-gap: 30px;
+
+}
+.aboutme{
+    grid-column: 1;
+    grid-row: 1 /2;
+}
+.line{
+    grid-column: 1;
+    grid-row: 2;
+
+}
+.contact{
+    grid-row-start: 3;
+    grid-row-end: 4;
+}
+
+.about-container h1{
+    padding-bottom: 10px;
+}

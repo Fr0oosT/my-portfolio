@@ -1,0 +1,9 @@
+.comingsoon{
+    min-height: calc(100vh - 123px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    font-size: 40px;
+}

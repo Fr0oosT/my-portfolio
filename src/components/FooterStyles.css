@@ -1,0 +1,27 @@
+.footer{
+    width: 100%;
+    padding: 2rem 0rem 2rem;
+    background-color: rgba(19, 19, 19, 0.8);
+    margin-top: auto;
+    left: 0; 
+    bottom: 0; 
+    /* right: 0;  */
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.footer-container{
+    max-width: 1140px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2,1);
+}
+
+.icons{
+    padding-top: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
