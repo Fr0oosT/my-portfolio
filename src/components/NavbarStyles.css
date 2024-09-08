@@ -43,7 +43,6 @@ nav{
     font-weight: 500;
 }
 .nav-item{
-    display: block;
     display: flex;
     align-items: center;
     height: 5vh;

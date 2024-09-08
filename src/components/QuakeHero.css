@@ -1,0 +1,76 @@
+.mask{
+    width: 100%;
+    height: 50vh;
+    position: relative;
+    background: olivedrab;
+}
+
+/* .intro-img{
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    object-fit: cover;
+} */
+
+.mask::after{
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: black;
+    opacity: 0.75;
+}
+
+.hero{
+    width: 100%;
+    height: 100%;
+}
+
+.hero-content{
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 30%;
+    left: 50%;
+    text-align: center;
+}
+.hero-content h1{
+    padding-bottom: 10px;
+}
+.hero .content h1{
+    font-size: 4rem;
+    padding: 0.6 0 1.5rem;
+}
+
+.hero .content p{
+    font-size: 1.4rem;
+    font-weight: 200;
+    text-transform: uppercase;
+}
+.resume-btn{
+    padding: 40px;
+}
+.btn{
+    border: solid 2px white;
+    border-radius: 5px;
+    padding: 10px;
+    transition: 0.3s;
+    font-weight: 700;
+
+}
+.btn:hover{
+    transition: 0.3s;
+    background: gray;
+}
+
+@media screen and (max-width: 640px) {
+    .hero .content h1{
+        font-size: 3rem;
+    }
+
+    .hero .content p{
+        font-size: 1.4rem;
+    }
+}
