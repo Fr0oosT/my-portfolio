@@ -1,8 +1,10 @@
 import React from "react";
 import "./QuakeContent.css";
+import { AiOutlineArrowDown } from "react-icons/ai";
 
 function QuakeContent() {
   return (
+    <>
     <div className="content-wrapper">
       <div className="title-card">
         <h1>Quake : Temple of Worship</h1>
@@ -14,36 +16,91 @@ function QuakeContent() {
           </p>
         </div>
       </div>
+    </div>
 
-      <div className="highlights">
+
+
+    <div className="quake-title">
+
+    <h1>My Process</h1>
+    </div>
+
+    <div className="highlights full-width">
         <ul>
-            <li><p>Highlight</p></li>
-            <li><p>Highlight</p></li>
-            <li><p>Highlight</p></li>
-            <li><p>Highlight</p></li>
+          <li>
+            <p>Research</p>
+          </li>
+          <li>
+            <p>Sketching</p>
+          </li>
+          <li>
+            <p>Gym Investigation</p>
+          </li>
+          <li>
+            <p>Texturing & Lighting</p>
+          </li>
+          <li>
+            <p>Ninjapaths</p>
+          </li>
         </ul>
       </div>
+      
 
-    <h1 className="title">My Process</h1>
-
-      <div className="info-card">
-        <h1>Step 1: Title</h1>
-        <img></img>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce
+      <div className="info-wrapper">
+        <div className="info-card">
+          <h1>Step 1: Title</h1>
+          <img></img>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce
             interdum hendrerit lacus eu semper. Morbi pulvinar pellentesque
-            convallis</p>
+            convallis
+          </p>
+        </div>
+
+        <div className="arrow">
+            <AiOutlineArrowDown size={60} style={{ color: "#fff" }} />
+        </div>
+
+        <div className="info-card">
+          <h1>Step 2: Title</h1>
+          <img></img>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce
+            interdum hendrerit lacus eu semper. Morbi pulvinar pellentesque
+            convallis
+          </p>
+        </div>
+
+        <div className="arrow">
+            <AiOutlineArrowDown size={60} style={{ color: "#fff" }} />
+        </div>
+
+        <div className="info-card">
+          <h1>Step 3: Title</h1>
+          <img></img>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce
+            interdum hendrerit lacus eu semper. Morbi pulvinar pellentesque
+            convallis
+          </p>
+        </div>
+
+        <div className="arrow">
+            <AiOutlineArrowDown size={60} style={{ color: "#fff" }} />
+        </div>
+
+        <div className="info-card">
+          <h1>Step 4: Title</h1>
+          <img></img>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce
+            interdum hendrerit lacus eu semper. Morbi pulvinar pellentesque
+            convallis
+          </p>
+        </div>
       </div>
 
-    <div className="arrow"><h4>INSERT ARROW</h4></div>
-
-      <div className="info-card">
-        <h1>Step 2: Title</h1>
-        <img></img>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce
-            interdum hendrerit lacus eu semper. Morbi pulvinar pellentesque
-            convallis</p>
-      </div>
-    </div>
+    </>
   );
 }
 
